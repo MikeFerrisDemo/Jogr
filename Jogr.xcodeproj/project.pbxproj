@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B1265C6B1EBE18A100E17F87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265C6A1EBE18A100E17F87 /* AppDelegate.swift */; };
-		B1265C6D1EBE18A100E17F87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265C6C1EBE18A100E17F87 /* ViewController.swift */; };
 		B1265C701EBE18A100E17F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1265C6E1EBE18A100E17F87 /* Main.storyboard */; };
 		B1265C721EBE18A100E17F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1265C711EBE18A100E17F87 /* Assets.xcassets */; };
 		B1265C751EBE18A100E17F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1265C731EBE18A100E17F87 /* LaunchScreen.storyboard */; };
 		B1265C801EBE18A100E17F87 /* JogrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265C7F1EBE18A100E17F87 /* JogrTests.swift */; };
 		B1265C8B1EBE18A100E17F87 /* JogrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265C8A1EBE18A100E17F87 /* JogrUITests.swift */; };
+		B1265C9C1EBE18DD00E17F87 /* RunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265C9B1EBE18DD00E17F87 /* RunController.swift */; };
+		B1265C9E1EBE18EB00E17F87 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265C9D1EBE18EB00E17F87 /* MapAnnotation.swift */; };
+		B1265CA01EBE18F200E17F87 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265C9F1EBE18F200E17F87 /* PathFinder.swift */; };
+		B1265CA31EBE192700E17F87 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA21EBE192700E17F87 /* HistoryController.swift */; };
+		B1265CA51EBE192D00E17F87 /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA41EBE192D00E17F87 /* StatView.swift */; };
+		B1265CA71EBE196400E17F87 /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA61EBE196400E17F87 /* HistogramView.swift */; };
+		B1265CAA1EBE198800E17F87 /* TimeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA91EBE198800E17F87 /* TimeExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		B1265C671EBE18A100E17F87 /* Jogr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1265C6A1EBE18A100E17F87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1265C6C1EBE18A100E17F87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1265C6F1EBE18A100E17F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1265C711EBE18A100E17F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1265C741EBE18A100E17F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		B1265C861EBE18A100E17F87 /* JogrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1265C8A1EBE18A100E17F87 /* JogrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogrUITests.swift; sourceTree = "<group>"; };
 		B1265C8C1EBE18A100E17F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1265C9B1EBE18DD00E17F87 /* RunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunController.swift; sourceTree = "<group>"; };
+		B1265C9D1EBE18EB00E17F87 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		B1265C9F1EBE18F200E17F87 /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
+		B1265CA21EBE192700E17F87 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		B1265CA41EBE192D00E17F87 /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		B1265CA61EBE196400E17F87 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
+		B1265CA91EBE198800E17F87 /* TimeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,10 @@
 		B1265C691EBE18A100E17F87 /* Jogr */ = {
 			isa = PBXGroup;
 			children = (
-				B1265C6A1EBE18A100E17F87 /* AppDelegate.swift */,
-				B1265C6C1EBE18A100E17F87 /* ViewController.swift */,
+				B1265C981EBE18A600E17F87 /* Application */,
+				B1265C9A1EBE18CD00E17F87 /* RunController */,
+				B1265CA11EBE190900E17F87 /* HistoryController */,
+				B1265CA81EBE196D00E17F87 /* Utilities */,
 				B1265C6E1EBE18A100E17F87 /* Main.storyboard */,
 				B1265C711EBE18A100E17F87 /* Assets.xcassets */,
 				B1265C731EBE18A100E17F87 /* LaunchScreen.storyboard */,
@@ -123,6 +137,42 @@
 				B1265C8C1EBE18A100E17F87 /* Info.plist */,
 			);
 			path = JogrUITests;
+			sourceTree = "<group>";
+		};
+		B1265C981EBE18A600E17F87 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B1265C6A1EBE18A100E17F87 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B1265C9A1EBE18CD00E17F87 /* RunController */ = {
+			isa = PBXGroup;
+			children = (
+				B1265C9B1EBE18DD00E17F87 /* RunController.swift */,
+				B1265C9D1EBE18EB00E17F87 /* MapAnnotation.swift */,
+				B1265C9F1EBE18F200E17F87 /* PathFinder.swift */,
+			);
+			path = RunController;
+			sourceTree = "<group>";
+		};
+		B1265CA11EBE190900E17F87 /* HistoryController */ = {
+			isa = PBXGroup;
+			children = (
+				B1265CA21EBE192700E17F87 /* HistoryController.swift */,
+				B1265CA41EBE192D00E17F87 /* StatView.swift */,
+				B1265CA61EBE196400E17F87 /* HistogramView.swift */,
+			);
+			path = HistoryController;
+			sourceTree = "<group>";
+		};
+		B1265CA81EBE196D00E17F87 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1265CA91EBE198800E17F87 /* TimeExtensions.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1265C6D1EBE18A100E17F87 /* ViewController.swift in Sources */,
+				B1265CA51EBE192D00E17F87 /* StatView.swift in Sources */,
+				B1265CA71EBE196400E17F87 /* HistogramView.swift in Sources */,
+				B1265CA31EBE192700E17F87 /* HistoryController.swift in Sources */,
+				B1265C9C1EBE18DD00E17F87 /* RunController.swift in Sources */,
+				B1265CA01EBE18F200E17F87 /* PathFinder.swift in Sources */,
 				B1265C6B1EBE18A100E17F87 /* AppDelegate.swift in Sources */,
+				B1265CAA1EBE198800E17F87 /* TimeExtensions.swift in Sources */,
+				B1265C9E1EBE18EB00E17F87 /* MapAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +574,7 @@
 				B1265C911EBE18A200E17F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1265C921EBE18A200E17F87 /* Build configuration list for PBXNativeTarget "JogrTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +583,7 @@
 				B1265C941EBE18A200E17F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1265C951EBE18A200E17F87 /* Build configuration list for PBXNativeTarget "JogrUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +592,7 @@
 				B1265C971EBE18A200E17F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
