@@ -19,7 +19,7 @@
 		B1265CA31EBE192700E17F87 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA21EBE192700E17F87 /* HistoryController.swift */; };
 		B1265CA51EBE192D00E17F87 /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA41EBE192D00E17F87 /* StatView.swift */; };
 		B1265CA71EBE196400E17F87 /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA61EBE196400E17F87 /* HistogramView.swift */; };
-		B1265CAA1EBE198800E17F87 /* TimeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA91EBE198800E17F87 /* TimeExtensions.swift */; };
+		B1265CAA1EBE198800E17F87 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1265CA91EBE198800E17F87 /* DateExtensions.swift */; };
 		B1AB7B291EBF739A0055D640 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB7B281EBF739A0055D640 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 		B1265CA21EBE192700E17F87 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		B1265CA41EBE192D00E17F87 /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
 		B1265CA61EBE196400E17F87 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
-		B1265CA91EBE198800E17F87 /* TimeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeExtensions.swift; sourceTree = "<group>"; };
+		B1265CA91EBE198800E17F87 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		B1AB7B281EBF739A0055D640 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,7 +116,7 @@
 				B1265CA11EBE190900E17F87 /* HistoryController */,
 				B1AB7B271EBF724D0055D640 /* MapController */,
 				B1AB7B261EBF72320055D640 /* SummaryController */,
-				B1265CA91EBE198800E17F87 /* TimeExtensions.swift */,
+				B1265CA91EBE198800E17F87 /* DateExtensions.swift */,
 				B1AB7B281EBF739A0055D640 /* StringExtensions.swift */,
 				B1265C6E1EBE18A100E17F87 /* Main.storyboard */,
 				B1265C711EBE18A100E17F87 /* Assets.xcassets */,
@@ -324,7 +324,7 @@
 				B1265C9C1EBE18DD00E17F87 /* RunController.swift in Sources */,
 				B1265CA01EBE18F200E17F87 /* PathFinder.swift in Sources */,
 				B1265C6B1EBE18A100E17F87 /* AppDelegate.swift in Sources */,
-				B1265CAA1EBE198800E17F87 /* TimeExtensions.swift in Sources */,
+				B1265CAA1EBE198800E17F87 /* DateExtensions.swift in Sources */,
 				B1265C9E1EBE18EB00E17F87 /* MapAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

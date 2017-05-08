@@ -1,5 +1,5 @@
 //
-//  TimeExtensions.swift
+//  DateExtensions.swift
 //  Jogr
 //
 //  Created by Mike Ferris on 5/6/17.
