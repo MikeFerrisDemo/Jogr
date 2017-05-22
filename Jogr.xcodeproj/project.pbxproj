@@ -116,8 +116,7 @@
 				B1265CA11EBE190900E17F87 /* HistoryController */,
 				B1AB7B271EBF724D0055D640 /* MapController */,
 				B1AB7B261EBF72320055D640 /* SummaryController */,
-				B1265CA91EBE198800E17F87 /* DateExtensions.swift */,
-				B1AB7B281EBF739A0055D640 /* StringExtensions.swift */,
+				B14930981ED35F3A00A0EF02 /* Utilities */,
 				B1265C6E1EBE18A100E17F87 /* Main.storyboard */,
 				B1265C711EBE18A100E17F87 /* Assets.xcassets */,
 				B1265C731EBE18A100E17F87 /* LaunchScreen.storyboard */,
@@ -166,10 +165,19 @@
 			isa = PBXGroup;
 			children = (
 				B1265CA21EBE192700E17F87 /* HistoryController.swift */,
-				B1265CA41EBE192D00E17F87 /* StatView.swift */,
-				B1265CA61EBE196400E17F87 /* HistogramView.swift */,
 			);
 			path = HistoryController;
+			sourceTree = "<group>";
+		};
+		B14930981ED35F3A00A0EF02 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1265CA41EBE192D00E17F87 /* StatView.swift */,
+				B1265CA61EBE196400E17F87 /* HistogramView.swift */,
+				B1265CA91EBE198800E17F87 /* DateExtensions.swift */,
+				B1AB7B281EBF739A0055D640 /* StringExtensions.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		B1AB7B261EBF72320055D640 /* SummaryController */ = {
